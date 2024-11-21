@@ -12,7 +12,7 @@ try:
     time.sleep(2)  # Esperar a que el ESP32 esté listo
 
     # Enviar un mensaje al ESP32
-    ser.write(b'S')
+    ser.write(b"S")
     print("Mensaje enviado")
 
     # Leer respuesta del ESP32

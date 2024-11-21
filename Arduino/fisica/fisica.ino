@@ -11,7 +11,7 @@ void loop() {
     Serial.println("Recibido: " + data); // Responder con el mensaje recibido
     
     // Encender el LED si se recibe un mensaje
-    if (data == "2") {
+    if (data == "S") {
       digitalWrite(2, HIGH); // Encender el LED
       delay(1000);           // Mantenerlo encendido por 1 segundo
       digitalWrite(2, LOW);  // Apagar el LED después
